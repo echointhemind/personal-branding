@@ -2,19 +2,8 @@
 
 html,
 body {
-  background-color: rebeccapurple;
-}
-
-header {
-  background-color: #2f1893;
-}
-
-header h1 {
-  font-family: "DM Sans", sans-serif;
-  font-weight: 700;
-  font-size: 58px;
-  line-height: 70px;
-  letter-spacing: -1px;
-  width: 780px;
-  height: 180px;
+  /* background-color: rebeccapurple; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
