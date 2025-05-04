@@ -5,14 +5,14 @@
   margin: auto;
   display: grid;
   grid-template-columns: 2fr 1fr;
-  border: 5px solid blue;
+  /* border: 5px solid blue; */
 }
 /* ini adalah main yang ada di dalam container. sejajar dengan sidebar */
 .main {
   width: 700px;
   margin-left: 115px;
   margin-top: 91px;
-  border: 5px solid black;
+  /* border: 5px solid black; */
 }
 
 .main h3 {
@@ -198,4 +198,27 @@
 .sidebar-kanan .kelima p {
   grid-area: tulisan;
   margin-top: -20px;
+}
+
+.pembungkus-email {
+  width: 370px;
+  height: 186px;
+  border: 1px solid rgb(97, 97, 110);
+}
+.pembungkus-email p {
+  margin-left: 20px;
+}
+
+.pembungkus-email .placeholder {
+  margin-left: 20px;
+}
+.placeholder {
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.pembungkus-email .kirim {
+  background-color: skyblue;
+  padding: 10px;
+  border-radius: 10px;
 }
