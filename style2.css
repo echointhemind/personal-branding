@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+.container {
+  width: 1400px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  border: 5px solid blue;
+}
+/* ini adalah main yang ada di dalam container. sejajar dengan sidebar */
+.main {
+  width: 700px;
+  margin-left: 115px;
+  margin-top: 91px;
+  border: 5px solid black;
+}
+
+/* akhir dari main */
+
+/* ini adalah sidebar-kanan yang ada di dalam container */
+
+.sidebar-kanan {
+  width: 378px;
+  border: 6px solid red;
+  margin-top: 94px;
+}
+
+.sidebar-kanan .pertama {
+  display: grid;
+  gap: 50px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "gambar artikel"
+    "gambar tulisan";
+}
+
+.sidebar-kanan .pertama img {
+  grid-area: gambar;
+}
+
+.sidebar-kanan .pertama article {
+  grid-area: artikel;
+}
+.sidebar-kanan .pertama p {
+  margin-top: -20px;
+  grid-area: tulisan;
+}
