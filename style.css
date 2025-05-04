@@ -10,7 +10,7 @@ header {
 .wrapper {
   width: 780px;
   margin: auto;
-  border: 5px solid red;
+  /* border: 5px solid red; */
 }
 .tulisan h2 {
   text-align: left;
@@ -35,7 +35,7 @@ header {
 .profil {
   width: 388px;
   height: 100px;
-  border: 5px solid black;
+  /* border: 5px solid black; */
   margin-top: 100px;
   display: grid;
   grid-template-columns: 100px 200px;
@@ -88,3 +88,23 @@ header {
 }
 
 /* akhir dari header */
+
+/* awal dari main */
+
+.main-menu {
+  width: 770px;
+  margin: auto;
+  border: 5px solid red;
+}
+
+.main-menu h1 {
+  margin-bottom: 90px;
+  margin-top: 50px;
+}
+
+.main-menu h5 {
+  font-family: "DM Sans", sans-serif;
+  margin-top: 90px;
+  margin-bottom: 20px;
+}
+/* akhir dari main */
