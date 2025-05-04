@@ -107,4 +107,18 @@ header {
   margin-top: 90px;
   margin-bottom: 20px;
 }
+
+.garis-pertama {
+  display: flex;
+}
+
+.garis-kedua {
+  display: flex;
+  margin-bottom: 90px;
+}
+
+.garis img {
+  margin-right: 10px;
+}
+
 /* akhir dari main */
