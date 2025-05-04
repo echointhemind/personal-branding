@@ -94,7 +94,7 @@ header {
 .main-menu {
   width: 770px;
   margin: auto;
-  border: 5px solid red;
+  /* border: 5px solid red; */
 }
 
 .main-menu h1 {
