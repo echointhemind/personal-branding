@@ -5,6 +5,10 @@
   margin: auto;
   display: grid;
   grid-template-columns: 2fr 1fr;
+  grid-template-areas:
+    "column-pertama side-pertama"
+    "column-pertama side-kedua"
+    "column-pertama side-ketiga";
   /* border: 5px solid blue; */
 }
 /* ini adalah main yang ada di dalam container. sejajar dengan sidebar */
@@ -83,10 +87,19 @@
 /* akhir dari main */
 
 /* ini adalah sidebar-kanan yang ada di dalam container */
+.column-pertama {
+  grid-area: column-pertama;
+}
+.side-pertama {
+  grid-area: side-pertama;
+}
 
+.side-kedua {
+  grid-area: side-kedua;
+}
 .sidebar-kanan {
   width: 378px;
-  border: 6px solid red;
+  /* border: 6px solid red; */
   margin-top: 94px;
 }
 /* ini adalah sidebar yang pertama yang ada di dalam sidebar kanan yang ada di dalam container */
@@ -204,6 +217,7 @@
   width: 370px;
   height: 186px;
   border: 1px solid rgb(97, 97, 110);
+  margin-top: 30px;
 }
 .pembungkus-email p {
   margin-left: 20px;
@@ -221,4 +235,141 @@
   background-color: skyblue;
   padding: 10px;
   border-radius: 10px;
+}
+
+/* sidebar-kanan2 yang ada di dalam yang ada di dalam container */
+/* sidebar kanan yang pertama */
+.sidebar-kanan2 .pertama {
+  grid-area: side-ketiga;
+  width: 370px;
+  margin-bottom: 30px;
+  /* border: 3px solid blue; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "gambar artikel"
+    "gambar tanggal";
+}
+
+.sidebar-kanan2 .pertama img {
+  grid-area: gambar;
+}
+
+.sidebar-kanan2 .pertama article {
+  grid-area: artikel;
+}
+
+.sidebar-kanan2 .pertama p {
+  grid-area: tanggal;
+}
+
+/* sidebar kanan yang kedua */
+
+.sidebar-kanan2 .kedua {
+  grid-area: side-ketiga;
+  width: 370px;
+  margin-bottom: 30px;
+  /* border: 3px solid blue; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "gambar artikel"
+    "gambar tanggal";
+}
+
+.sidebar-kanan2 .kedua img {
+  grid-area: gambar;
+}
+
+.sidebar-kanan2 .kedua article {
+  grid-area: artikel;
+}
+
+.sidebar-kanan2 .kedua p {
+  grid-area: tanggal;
+}
+
+/* sidebar kanan yang ketiga */
+
+.sidebar-kanan2 .ketiga {
+  grid-area: side-ketiga;
+  width: 370px;
+  margin-bottom: 30px;
+  /* border: 3px solid blue; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "gambar artikel"
+    "gambar tanggal";
+}
+
+.sidebar-kanan2 .ketiga img {
+  grid-area: gambar;
+}
+
+.sidebar-kanan2 .ketiga article {
+  grid-area: artikel;
+}
+
+.sidebar-kanan2 .ketiga p {
+  grid-area: tanggal;
+}
+
+/* sidebar yang keempat */
+
+.sidebar-kanan2 .keempat {
+  grid-area: side-ketiga;
+  width: 370px;
+  margin-bottom: 30px;
+  /* border: 3px solid blue; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "gambar artikel"
+    "gambar tanggal";
+}
+
+.sidebar-kanan2 .keempat img {
+  grid-area: gambar;
+}
+
+.sidebar-kanan2 .keempat article {
+  grid-area: artikel;
+}
+
+.sidebar-kanan2 .keempat p {
+  grid-area: tanggal;
+}
+
+/* keempat */
+
+.sidebar-kanan2 .kelima {
+  grid-area: side-ketiga;
+  width: 370px;
+  margin-bottom: 30px;
+  /* border: 3px solid blue; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "gambar artikel"
+    "gambar tanggal";
+}
+
+.sidebar-kanan2 .kelima img {
+  grid-area: gambar;
+}
+
+.sidebar-kanan2 .kelima article {
+  grid-area: artikel;
+}
+
+.sidebar-kanan2 .kelima p {
+  grid-area: tanggal;
+}
+
+.sidebar-kanan2 button {
+  margin-top: 40px;
+  width: 90px;
+  background-color: salmon;
+  border-radius: 20px;
 }
